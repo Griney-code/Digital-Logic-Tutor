@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs / Cache
+*.log
+logs/
+cache/
+tmp/
+temp/
+
+# Model checkpoints / embeddings
+*.pt
+*.bin
+*.ckpt
+checkpoints/
+models/
+embeddings/
+
+# Data files you don't want in Git
+data/
+datasets/
+*.sqlite
+*.db
+
+# If you store PDF / PPT knowledge base locally
+# (让仓库更干净，可根据需要注释掉)
+*.pdf
+*.ppt
+*.pptx
+documents/
+
+# =========================
+# IDE / Editor
+# =========================
+
+# VSCode
+.vscode/
+.history/
+
+# PyCharm / JetBrains
+.idea/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node / Mini-program (如果未来结合前端)
+# =========================
+node_modules/
+dist/
+build/
