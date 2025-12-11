@@ -2,7 +2,7 @@
 
 一个基于 OpenAI API 的“数字系统与数字逻辑”智能学习助手。
 
----
+
 
 ## 功能介绍
 
@@ -15,7 +15,7 @@
 * 流式输出、自动重试、健壮性更高
 * 助教逻辑封装为类，结构更清晰
 
----/
+
 
 ## 运行环境
 
@@ -23,7 +23,7 @@
 * pip（Python 包管理器）
 * OpenAI API Key（需自行申请）
 
----
+
 
 ## 安装与运行
 
@@ -49,7 +49,7 @@ OPENAI_API_KEY=你的API密钥
 
 ⚠️ 不要把 `.env` 上传到 GitHub。
 
----
+
 
 ## 启动应用
 
@@ -64,7 +64,7 @@ python tutor.py
 输入 /exit 退出，输入 /clear 清空记忆
 ```
 
----
+
 
 ## 文件结构
 
@@ -75,9 +75,11 @@ digital_logic_tutor/
 │── .env               # 环境变量（手动创建）
 │── requirements.txt
 │── README.md
+│── .gitignore
+│── images
 ```
 
----
+
 
 ## 使用说明
 
@@ -92,7 +94,7 @@ digital_logic_tutor/
 * 退出
   `/exit`
 
----
+
 
 ## 运行示例
 
@@ -115,7 +117,7 @@ digital_logic_tutor/
 [![Demo Video](./images/cover.png)](https://www.bilibili.com/video/BV1DzmTBdEWi/?vd_source=b757728ab3398657f735706c7dd45dbf)
 
 
----
+
 ## 注意事项
 
 * 若 memory.json 过大，程序会自动清理早期历史
